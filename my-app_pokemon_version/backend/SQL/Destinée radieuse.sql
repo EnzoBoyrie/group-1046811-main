@@ -1,0 +1,30 @@
+INSERT INTO Card (
+    title, 
+    id_pokemon, 
+    type_pokemon, 
+    id_sets, 
+    release_date, 
+    resum, 
+    stock, 
+    price, 
+    Illustration_Rare, 
+    Illustration_Speciale_Rare, 
+    Illustration_Hyper_Rare
+) VALUES
+
+('Pyrobut Vmax', 019072, 'Feu', 6, '2022-02-25', 'Pyrobut Vmax est un Pokémon de type Feu connu pour ses puissantes attaques offensives.', 50, 59.55, FALSE, TRUE, FALSE),
+('Morpeko Vmax', 038072, 'Électrik', 6, '2022-02-25', 'Morpeko Vmax alterne entre sa forme affamée et pleine pour déstabiliser ses adversaires.', 50, 59.55, FALSE, TRUE, FALSE),
+('Wimessir V', 039072, 'Psy', 6, '2022-02-25', 'Wimessir V est un Pokémon élégant et mystique doté de pouvoirs psy impressionnants.', 100, 19.99, TRUE, FALSE, FALSE),
+('Rongrigou V', 053072, 'Normal', 6, '2022-02-25', 'Rongrigou V possède une endurance remarquable et des capacités défensives solides.', 100, 19.99, TRUE, FALSE, FALSE),
+('Charmilly Vmax', 073072, 'Psy', 6, '2022-02-25', 'Charmilly Vmax utilise son pouvoir psy pour protéger et attaquer avec finesse.',  50, 59.55, FALSE, TRUE, FALSE),
+('Gorythhmic V', 105122, 'Plante', 6, '2022-02-25', 'Gorythhmic V combine musique et attaques de type Plante pour dominer ses adversaires.',  100, 19.99, TRUE, FALSE, FALSE),
+('Dracaufeu Vmax', 107122, 'Feu', 6, '2022-02-25', 'Dracaufeu Vmax est un Pokémon légendaire, maître des flammes destructrices.', 50, 59.55, FALSE, TRUE, FALSE),
+('Scolocendre Vmax', 109122, 'Feu', 6, '2022-02-25', 'Scolocendre Vmax utilise son corps incandescent pour brûler tout sur son passage.', 50, 59.55, FALSE, TRUE, FALSE),
+('Lokhlass V', 110122, 'Eau', 6, '2022-02-25', 'Lokhlass V est un Pokémon gracieux et puissant, utilisant des vagues pour attaquer.', 100, 19.99, TRUE, FALSE, FALSE),
+('Lokhlass Vmax', 111122, 'Eau', 6, '2022-02-25', 'Lokhlass Vmax utilise des attaques aquatiques dévastatrices pour submerger ses ennemis.', 50, 59.55, FALSE, TRUE, FALSE),
+('Salarsen Vmax', 113122, 'Électrik', 6, '2022-02-25', 'Salarsen Vmax libère une énergie électrique intense pour neutraliser ses adversaires.', 50, 59.55, FALSE, TRUE, FALSE),
+('Hexadron V', 115122, 'Combat', 6, '2022-02-25', 'Hexadron V est un Pokémon Combat au tempérament fougueux et destructeur.', 100, 19.99, TRUE, FALSE, FALSE),
+('Angoliath Vmax', 117122, 'Ténèbres', 6, '2022-02-25', 'Angoliath Vmax est un Pokémon imposant et protecteur, doté d’une grande force physique.', 50, 59.55, FALSE, TRUE, FALSE),
+('Métamorph V', 118122, 'Normal', 6, '2022-02-25', 'Métamorph V peut prendre l’apparence de n’importe quel adversaire pour copier ses capacités.', 100, 19.99, FALSE, TRUE, FALSE),
+('Métamorphe Vmax', 119122, 'Normal', 6, '2022-02-25', 'Métamorphe Vmax excelle dans l’art de la transformation et de l’imitation.', 50, 59.55, FALSE, TRUE, FALSE),
+('Ethernatos Vmax', 122122, 'Ténèbres', 6, '2022-02-25', 'Ethernatos Vmax domine le champ de bataille avec son aura obscure et son pouvoir absolu.', 10, 199.99, FALSE, TRUE, TRUE);

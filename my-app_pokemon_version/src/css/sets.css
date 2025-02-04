@@ -1,0 +1,108 @@
+.gen-sets-image {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.gen-sets-description-box {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gen-sets-description {
+  padding: 50px;
+  text-align: center;
+  border-radius: 8px;
+  width: 65%;
+  font-size: 24px;
+}
+
+.gen-sets-creation-date-wrapper {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.gen-sets-creation-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.container-set {
+  padding: 20px;
+  display: flex;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-set {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sets-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: center;
+}
+
+.set-item {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 2px 1px 1px rgb(222, 222, 222);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.set-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.set-image {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: width 0.3s, transform 0.2s;
+}
+
+.set-image:hover {
+  width: 90%;
+}
+
+.set-name {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.img-no-sets {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+.img-of-ronflex {
+  height: 600px;
+}

@@ -1,0 +1,28 @@
+INSERT INTO Card (
+    title, 
+    id_pokemon, 
+    type_pokemon, 
+    id_sets, 
+    release_date, 
+    resum, 
+    stock, 
+    price, 
+    Illustration_Rare, 
+    Illustration_Speciale_Rare, 
+    Illustration_Hyper_Rare
+) VALUES 
+('Laggron EX', 98100, 'Eau', 8, '2006-09-01', 'Laggron peut créer des secousses massives avec ses puissants bras pour détruire des rochers et creuser.', 100, 211.99, FALSE, TRUE, FALSE),
+('Alakazam Star', 99100, 'Psy', 8, '2006-09-01', 'Alakazam utilise ses pouvoirs psychiques pour manipuler son environnement avec précision.', 100, 341.99, FALSE, FALSE, TRUE),
+('Celebi Star', 100100, 'Plante', 8, '2006-09-01', 'Celebi est connu comme le gardien des forêts, voyageant dans le temps pour protéger la nature.', 100, 391.99,  FALSE, FALSE, TRUE),
+('Tangalice EX', 97100, 'Plante', 8, '2006-09-01', 'Tangalice piège ses ennemis avec ses lianes longues et puissantes, les immobilisant avant d’attaquer.', 100, 191.99, FALSE, TRUE, FALSE),
+('Kyogre EX', 95100, 'Eau', 8, '2006-09-01', 'Kyogre contrôle les océans et est capable de provoquer des déluges pour élargir les mers.', 100, 291.99, FALSE, TRUE, FALSE),
+('Jirachi EX', 94100, 'Psy', 8, '2006-09-01', 'Jirachi exauce les vœux lorsqu’il se réveille, bien qu’il passe la plupart de son temps à dormir.', 100, 331.99, FALSE, TRUE, FALSE),
+('Jungko EX', 96100, 'Psy', 8, '2006-09-01', 'Jungko se déplace à une vitesse fulgurante et peut utiliser des attaques tranchantes avec sa queue.', 100, 221.99, FALSE, TRUE, FALSE),
+('Groudon EX', 93100, 'Combat', 8, '2006-09-01', 'Groudon élargit les terres en provoquant des éruptions volcaniques massives.', 100, 281.99, FALSE, TRUE, FALSE),
+('Brouhabam EX', 92100, 'Normal', 8, '2006-09-01', 'Brouhabam génère des sons puissants capables de faire trembler le sol et effrayer ses ennemis.', 100, 201.99, FALSE, TRUE, FALSE),
+('Delcatty EX', 91100, 'Normal', 8, '2006-09-01', 'Delcatty aime s’installer dans des endroits calmes et confortables, évitant tout conflit.', 100, 181.99, FALSE, TRUE, FALSE),
+('Galeking EX', 89100, 'Acier', 8, '2006-09-01', 'Galeking défend son territoire avec acharnement, utilisant son corps d’acier pour repousser ses ennemis.', 100, 231.99, FALSE, TRUE, FALSE),
+('Braségalie EX', 90100, 'Feu', 8, '2006-09-01', 'Braségalie est un combattant redoutable, utilisant ses puissantes jambes pour des attaques de flammes explosives.', 100, 251.99, FALSE, TRUE, FALSE),
+('Florizarre', 28100, 'Plante', 8, '2006-09-01', 'Florizarre absorbe la lumière solaire avec son grand pétale pour amplifier ses capacités.', 100, 191.99, TRUE, FALSE, FALSE),
+('Flobio', 24100, 'Eau', 8, '2006-09-01', 'Flobio creuse des terriers dans les sols mouillés et utilise ses nageoires pour se propulser rapidement dans l’eau.', 100, 121.99, TRUE, FALSE, FALSE),
+('Tortank', 14100, 'Eau', 8, '2006-09-01', 'Tortank utilise les puissants canons sur son dos pour projeter de l’eau à grande vitesse.', 100, 211.99, FALSE, FALSE, FALSE);

@@ -1,0 +1,28 @@
+INSERT INTO Card (
+    title, 
+    id_pokemon, 
+    type_pokemon, 
+    id_sets, 
+    release_date, 
+    resum, 
+    stock, 
+    price, 
+    Illustration_Rare, 
+    Illustration_Speciale_Rare, 
+    Illustration_Hyper_Rare
+) VALUES
+('Léviator VMAX', 029203, 'Eau', 5, ' 2023-01-20', 'Léviator est un Pokémon de type Eau et Vol, réputé pour sa taille imposante et sa nature sauvage. Capable de provoquer des tempêtes et de plonger dans les profondeurs marines, il incarne la puissance brute et la majesté des océans.', 75, 35.90, FALSE, TRUE, FALSE),
+('Aquali VMAX', 030203, 'Eau', 5, ' 2023-01-20', 'Aqualie est un Pokémon de type Eau, reconnu pour sa beauté et sa grâce dans les milieux aquatiques. Agile et rapide, elle utilise ses nageoires pour se déplacer avec une fluidité parfaite, tout en étant capable d`exécuter des attaques aquatiques puissantes.', 75, 35.90, FALSE, TRUE, FALSE),
+('Pyroli VMAX', 018203, 'Feu', 5, ' 2023-01-20', 'Pyrolie est un Pokémon de type Feu, connu pour sa vivacité et sa capacité à créer des flammes ardentes qu’il utilise pour attaquer ses ennemis. Avec sa nature fougueuse et son tempérament impétueux, il incarne la passion et la chaleur des volcans.', 75, 35.90, FALSE, TRUE, FALSE),
+('Mentali VMAX', 065203, 'Psy', 5, ' 2023-01-20', 'Mentalist est un Pokémon de type Psy, connu pour son esprit vif et ses capacités psychiques exceptionnelles. Il utilise sa maîtrise des pouvoirs mentaux pour manipuler son environnement et ses adversaires, tout en restant calme et stratégique dans ses combats.', 75, 35.90, FALSE, TRUE, FALSE),
+('Pyrax V', 021203, 'Feu', 5, ' 2023-01-20', 'Pyrax est un Pokémon de type Feu et Insecte, connu pour sa capacité à créer des flammes et à les utiliser pour protéger son territoire. Avec ses ailes brûlantes et son corps agile, il attaque rapidement ses ennemis en les surprenant avec des jets de feu.', 75, 35.90, FALSE, TRUE, FALSE),
+('Galvagon VMAX', 059203, 'Électrik', 5, ' 2023-01-20', 'Galvagon est un Pokémon de type Électrik et Poison, redouté pour sa capacité à générer des décharges électriques et à empoisonner ses adversaires. Grâce à son corps serpentiforme et ses attaques sournoises, il est à la fois rapide et dangereux, capable de frapper avec précision et de désorienter ses ennemis.', 75, 35.90, FALSE, TRUE, FALSE),
+('Nymphali VMAX', 075203, 'Psy', 5, ' 2023-01-20', 'Nymphali est un Pokémon de type Fée, réputé pour sa beauté délicate et son comportement affectueux. Grâce à son charme et à ses pouvoirs de guérison, il est capable de protéger ses alliés tout en utilisant ses attaques puissantes pour vaincre ses adversaires.', 75, 35.90, FALSE, TRUE, FALSE),
+('Lougaroc VMAX', 092203, 'Combat', 5, ' 2023-01-20', 'Lougaroc est un Pokémon de type Rock, connu pour sa loyauté et sa nature protectrice envers son Dresseur. Selon son heure d`évolution, il prend des formes différentes, chacune associée à des capacités uniques et une grande agilité en combat.', 75, 35.90, FALSE, TRUE, FALSE),
+('Noctali VMAX', 095203, 'Ténébre', 5, ' 2023-01-20', 'Noctali est un Pokémon de type Ténèbres, apprécié pour sa discrétion et sa capacité à se fondre dans l`ombre. Il utilise ses pouvoirs d`obscurité pour défendre son territoire et peut créer des attaques puissantes basées sur la ténacité et la stratégie.', 75, 35.90, FALSE, TRUE, FALSE),
+('Golemastoc V', 182203, 'Psy', 5, ' 2023-01-20', 'Golemastoc est un Pokémon de type Sol et Spectre, réputé pour son apparence imposante et son pouvoir de manipulation des esprits. Il utilise sa maîtrise du sol et des forces spectrales pour créer des attaques puissantes et déstabiliser ses adversaires, alliant défense et agression.', 75, 35.90, FALSE, TRUE, FALSE),
+('Miasmax VMAX', 101203, 'Ténébre', 5, ' 2023-01-20', 'Miasmmax est un Pokémon de type Poison et Spectre, connu pour sa capacité à générer des miasmes toxiques et à manipuler les énergies sombres. Il utilise ses pouvoirs pour perturber ses adversaires, en les empoisonnant ou en les enveloppant dans des nuages toxiques, rendant les combats particulièrement redoutables.', 75, 35.90, FALSE, TRUE, FALSE),
+('Duralugon VMAX', 123203, 'Dragon', 5, ' 2023-01-20', 'Duralugon est un Pokémon de type Acier et Dragon, célèbre pour sa résistance exceptionnelle et son corps robuste comme de l`acier. Il utilise sa grande puissance physique et ses attaques de type Dragon pour dominer ses adversaires, tout en restant un combattant stratégique et déterminé.', 75, 35.90, FALSE, TRUE, FALSE),
+('Bruyverne V', 196203, 'Dragon', 5, ' 2023-01-20', 'Bruyverne est un Pokémon de type Vol et Dragon, reconnu pour ses oreilles ultrasensibles qui lui permettent de détecter des sons à des fréquences élevées. Agile et rapide, il utilise des attaques sonores dévastatrices et est capable de voler à grande vitesse tout en maîtrisant ses puissants pouvoirs draconiques.', 75, 35.90, FALSE, TRUE, FALSE),
+('Dracolosse V', 029203, 'Dragon', 5, ' 2023-01-20', 'Dracolosse est un Pokémon de type Dragon et Vol, emblématique de sa majesté et de sa puissance. Avec son corps long et serpentiforme, il utilise ses capacités draconiques pour voler à des altitudes impressionnantes et lancer des attaques puissantes, tout en étant apprécié pour sa nature calme et protectrice.', 75, 35.90, FALSE, TRUE, FALSE),
+('Desséliande VMAX', 029203, 'Plante', 5, ' 2023-01-20', 'Alakazam est un Pokémon de type Psy connu pour son intelligence exceptionnelle, surpassant celle des superordinateurs. Avec ses deux cuillères, il amplifie ses capacités psychiques pour exécuter des attaques puissantes et précises. ', 75, 35.90, FALSE, TRUE, FALSE);

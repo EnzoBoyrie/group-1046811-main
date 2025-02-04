@@ -1,0 +1,37 @@
+.img-of-fire {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 1000px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+}
+
+.img-of-juan {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 0px;
+    position: absolute;
+    top: 0%; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3; 
+}
+
+.img-of-ferdeter {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+}

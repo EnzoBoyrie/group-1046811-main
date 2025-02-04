@@ -1,0 +1,88 @@
+.register-main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+.container-register {
+    position: relative;
+    background-color : #f9f9f9;
+    max-width: 700px;
+    width: 100%;
+    padding : 25px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.input-field-register:focus {
+    width: 102%;
+}
+.register-header {
+    text-align: center;
+    margin: 20 0 40px 0;
+}
+.register-header header {
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+.container-register header {
+
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+.container-register .form-register {
+    margin-top: 30px;
+}
+::placeholder {
+    color: #707070
+}
+.form-register .input-box-register {
+    width: 100%;
+    margin-top: 20px;
+}
+.input-box-register label {
+    color: #333;
+    transition: .3s
+}
+.form-register button {
+    height: 55px;
+    width: 100%;
+    color:#fff;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    background-color: #333;
+}
+.form-register button:hover {
+    background-color: #000000;
+}
+.form-register .input-box-register input {
+    position:relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 8px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 0 15px;
+}
+.form-register .column-register {
+    display: flex;
+    column-gap: 15px; 
+}
+
+
+@media screen and (max-width: 500px){
+    .form-register .column-register{
+        flex-wrap: wrap;
+    }
+}

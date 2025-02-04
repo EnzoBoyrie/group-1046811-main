@@ -1,0 +1,51 @@
+
+.gen-title {
+  font-size: 65px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+.gen-list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: center;
+}
+
+.gen-item {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 2px 1px 1px rgb(222, 222, 222);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.gen-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.gen-image {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: width 0.3s, transform 0.2s;
+}
+
+.gen-image:hover {
+  width: 90%;
+}

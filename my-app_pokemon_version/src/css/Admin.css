@@ -1,0 +1,125 @@
+.admin-dashboard {
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  .task-selector {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  .task-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  .task-button:hover {
+    background-color: #222;
+    color: #fff;
+    border-color: #222;
+  }
+
+  .task-button.active {
+    background-color: #444;
+    color: #fff;
+    border-color: #444;
+  }
+
+  .task-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .user-admin-section,
+  .generation-section,
+  .sets-section,
+  .cards-section,
+  .purchase-section {
+    margin-top: 20px;
+  }
+
+  .user-admin-buttons,
+  .generation-buttons,
+  .sets-buttons,
+  .cards-buttons,
+  .purchase-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .user-admin-button,
+  .generation-button,
+  .sets-button,
+  .cards-button,
+  .purchase-button {
+    padding: 8px 12px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  .user-admin-button:hover,
+  .generation-button:hover,
+  .sets-button:hover,
+  .cards-button:hover,
+  .purchase-button:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+
+  .user-admin-button.active,
+  .generation-button.active,
+  .sets-button.active,
+  .cards-button.active,
+  .purchase-button.active {
+    background-color: #444;
+    color: #fff;
+    border-color: #444;
+  }
+
+  .user-admin-content,
+  .generation-content,
+  .sets-content,
+  .cards-content,
+  .purchase-content {
+    padding: 10px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
